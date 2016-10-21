@@ -3,7 +3,6 @@
 	<name>calculator_test</name>
 	<comment></comment>
 	<projects>
-		<project>calculator</project>
 		<project>SegmentDisplay</project>
 		<project>pocketcalculator</project>
 	</projects>

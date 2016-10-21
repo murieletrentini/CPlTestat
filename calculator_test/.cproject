@@ -24,12 +24,10 @@
 								<option id="macosx.cpp.link.option.paths.1677931841" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pocketcalculator/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SegmentDisplay/Debug}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/calculator/Debug}&quot;"/>
 								</option>
 								<option id="macosx.cpp.link.option.libs.57457157" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="pocketcalculator"/>
 									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="SegmentDisplay"/>
-									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="calculator"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.126722218" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -40,7 +38,6 @@
 								<option id="gnu.both.asm.option.include.paths.368259806" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pocketcalculator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SegmentDisplay}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/calculator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cute}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1021056018" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
@@ -54,7 +51,6 @@
 								<option id="gnu.cpp.compiler.option.include.paths.1848604374" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pocketcalculator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SegmentDisplay}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/calculator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cute}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1283334198" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -65,7 +61,6 @@
 								<option id="gnu.c.compiler.option.include.paths.1151833974" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pocketcalculator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SegmentDisplay}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/calculator}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cute}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1757063136" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
@@ -75,10 +70,9 @@
 					<fileInfo id="cdt.managedbuild.config.gnu.macosx.exe.debug.1647552467.1939623218" name="Test.cpp" rcbsApplicability="disable" resourcePath="src/Test.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.1039566969.876941696">
 						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.1039566969.876941696" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.1039566969">
 							<option id="gnu.cpp.compiler.option.include.paths.751786450" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/calculator}&quot;"/>
-								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cute}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pocketcalculator}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/SegmentDisplay}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cute}&quot;"/>
 							</option>
 							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1929048996" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 						</tool>
@@ -90,13 +84,6 @@
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
-				<externalSettings containerId="calculator;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
-					<externalSetting>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/calculator"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/calculator/Debug"/>
-						<entry flags="RESOLVED" kind="libraryFile" name="calculator" srcPrefixMapping="" srcRootPath=""/>
-					</externalSetting>
-				</externalSettings>
 				<externalSettings containerId="SegmentDisplay;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/SegmentDisplay"/>

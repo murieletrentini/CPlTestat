@@ -41,15 +41,15 @@ endif
 all: calculator_main
 
 dependents:
-	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/pocketcalculator/Debug && $(MAKE) all
-	-cd /Users/muriele/Meine_Sachen/CevelopWorkspace/SegmentDisplay/Debug && $(MAKE) all
-	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/02/calculator/calculator/Debug && $(MAKE) all
+	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/pocketcalculator/Debug && $(MAKE) all
+	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/SegmentDisplay/Debug && $(MAKE) all
+	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/calculator/Debug && $(MAKE) all
 
 # Tool invocations
-calculator_main: $(OBJS) $(USER_OBJS) /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/pocketcalculator/Debug/libpocketcalculator.a /Users/muriele/Meine_Sachen/CevelopWorkspace/SegmentDisplay/Debug/libSegmentDisplay.a /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/02/calculator/calculator/Debug/libcalculator.a
+calculator_main: $(OBJS) $(USER_OBJS) /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/pocketcalculator/Debug/libpocketcalculator.a /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/SegmentDisplay/Debug/libSegmentDisplay.a /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/calculator/Debug/libcalculator.a
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
-	g++ -L"/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/02/calculator/calculator/Debug" -L"/Users/muriele/Meine_Sachen/CevelopWorkspace/SegmentDisplay/Debug" -L"/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/pocketcalculator/Debug" -o "calculator_main" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L"/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/calculator/Debug" -L"/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/SegmentDisplay/Debug" -L"/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/pocketcalculator/Debug" -o "calculator_main" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -60,8 +60,8 @@ clean:
 
 .PHONY: all clean dependents
 .SECONDARY:
-/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/pocketcalculator/Debug/libpocketcalculator.a:
-/Users/muriele/Meine_Sachen/CevelopWorkspace/SegmentDisplay/Debug/libSegmentDisplay.a:
-/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/02/calculator/calculator/Debug/libcalculator.a:
+/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/pocketcalculator/Debug/libpocketcalculator.a:
+/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/SegmentDisplay/Debug/libSegmentDisplay.a:
+/Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/calculator/Debug/libcalculator.a:
 
 -include ../makefile.targets
