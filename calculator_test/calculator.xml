@@ -1,0 +1,14 @@
+<testsuites>
+	<testsuite name="AllTests" tests="6">
+		<testcase classname="AllTests" name="test_div_by_zero"/>
+		<testcase classname="AllTests" name="test_one_plus_one"/>
+		<testcase classname="AllTests" name="test_invalid_operator"/>
+		<testcase classname="AllTests" name="test_invalidInput">
+			<failure message="../src/Test.cpp:21 &quot; expecting &quot; &quot;calc(&apos;a&apos;, 1, &apos;*&apos;)&quot; &quot; to throw &quot; &quot;std::invalid_argument&quot;">
+&quot; expecting &quot; &quot;calc(&apos;a&apos;, 1, &apos;*&apos;)&quot; &quot; to throw &quot; &quot;std::invalid_argument&quot;
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="test_calcstream"/>
+		<testcase classname="AllTests" name="test_calcstream_fail"/>
+	</testsuite>
+</testsuites>

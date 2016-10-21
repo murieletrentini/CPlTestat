@@ -1,0 +1,22 @@
+<testsuites>
+	<testsuite name="AllTests" tests="10">
+		<testcase classname="AllTests" name="test_div_by_zero"/>
+		<testcase classname="AllTests" name="test_one_plus_one"/>
+		<testcase classname="AllTests" name="test_invalid_operator"/>
+		<testcase classname="AllTests" name="test_calcstream"/>
+		<testcase classname="AllTests" name="test_calcstream_fail"/>
+		<testcase classname="AllTests" name="testDisplay_printDigit"/>
+		<testcase classname="AllTests" name="testDisplay_printNumber"/>
+		<testcase classname="AllTests" name="pocketcalculator_validInput">
+			<failure message="../src/Test.cpp:71 pocketcalculator_validInput: result == out.str() expected:	    - \n  |  |\n    - \n  ||  \n    - \n	but was:	    - \n  |  |\n    - \n  ||  \n    - \n -             \n|              \n -  -  -  -  - \n|  |  |  | ||  \n -        -    \n	">
+pocketcalculator_validInput: result == out.str() expected:	    - \n  |  |\n    - \n  ||  \n    - \n	but was:	    - \n  |  |\n    - \n  ||  \n    - \n -             \n|              \n -  -  -  -  - \n|  |  |  | ||  \n -        -    \n	
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="pocketcalculator_invalidInput"/>
+		<testcase classname="AllTests" name="pocketcalculator_printTooLargeNumber">
+			<failure message="../src/Test.cpp:99 pocketcalculator_printTooLargeNumber: error == out.str() expected:	 -             \n|              \n -  -  -  -  - \n|  |  |  | ||  \n -        -    \n	but was:	 -             \n|              \n -  -  -  -  - \n|  |  |  | ||  \n -        -    \n -             \n|              \n -  -  -  -  - \n|  |  |  | ||  \n -        -    \n	">
+pocketcalculator_printTooLargeNumber: error == out.str() expected:	 -             \n|              \n -  -  -  -  - \n|  |  |  | ||  \n -        -    \n	but was:	 -             \n|              \n -  -  -  -  - \n|  |  |  | ||  \n -        -    \n -             \n|              \n -  -  -  -  - \n|  |  |  | ||  \n -        -    \n	
+			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
