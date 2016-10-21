@@ -5,6 +5,7 @@
 	<projects>
 		<project>SegmentDisplay</project>
 		<project>pocketcalculator</project>
+		<project>calculator</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -6,9 +6,8 @@
 #include <istream>
 
 void pocketcalculator(std::istream & in, std::ostream & out) {
-	while (in) {
-		std::string s { };
-		std::getline(in, s);
+	std::string s { };
+	while (std::getline(in, s)) {
 		std::stringstream ss { s };
 		int result = calc(ss);
 		if (result == -1) {
@@ -16,6 +15,5 @@ void pocketcalculator(std::istream & in, std::ostream & out) {
 		} else {
 			printLargeNumber(result, out);
 		}
-		out << '\n';
 	}
 }
