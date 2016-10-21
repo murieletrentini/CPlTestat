@@ -7,6 +7,9 @@ int calc(int i, int j, char c) {
 	case '+':
 		return i + j;
 	case '-':
+		if (j > i){
+			return -1;
+		}
 		return i - j;
 	case '*':
 		return i * j;

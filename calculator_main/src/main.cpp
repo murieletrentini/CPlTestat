@@ -3,8 +3,5 @@
 
 
 int main() {
-
 		pocketcalculator(std::cin, std::cout);
-
-
 }
