@@ -41,9 +41,9 @@ endif
 all: calculator_main
 
 dependents:
-	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/pocketcalculator/Debug && $(MAKE) all
-	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/SegmentDisplay/Debug && $(MAKE) all
-	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/calculator/Debug && $(MAKE) all
+	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/pocketcalculator/Debug && $(MAKE) clean all
+	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/SegmentDisplay/Debug && $(MAKE) clean all
+	-cd /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/calculator/Debug && $(MAKE) clean all
 
 # Tool invocations
 calculator_main: $(OBJS) $(USER_OBJS) /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/pocketcalculator/Debug/libpocketcalculator.a /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/SegmentDisplay/Debug/libSegmentDisplay.a /Users/muriele/GoogleDrive/HSR/Module/3HS16/CPl/Uebungen/CPlTestat/calculator/Debug/libcalculator.a

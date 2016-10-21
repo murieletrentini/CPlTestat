@@ -1,5 +1,3 @@
-#include <stdexcept>
-#include <regex>
 #include <iostream>
 
 int calc(int i, int j, char c) {
