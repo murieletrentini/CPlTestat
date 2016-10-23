@@ -1,4 +1,5 @@
-#include "display.h"
+#include "sevensegment.h"
+
 #include <ostream>
 #include <vector>
 #include <string>

@@ -3,11 +3,13 @@
 #include "xml_listener.h"
 #include "cute_runner.h"
 
-#include "src/calculator.h"
+#include <src/calc.h>
+#include <src/sevensegment.h>
 #include "src/pocketcalculator.h"
-#include "src/display.h"
 
-#include <iostream>
+#include <istream>
+#include <ostream>
+#include <sstream>
 
 std::string const error {
 			" -             \n"

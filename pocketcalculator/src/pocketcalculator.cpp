@@ -1,6 +1,7 @@
-#include "src/calculator.h"
-#include "src/display.h"
 #include "pocketcalculator.h"
+
+#include <src/calc.h>
+#include <src/sevensegment.h>
 #include <ostream>
 #include <sstream>
 #include <istream>
